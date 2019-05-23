@@ -588,8 +588,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1683,6 +1683,11 @@ body {
 .cid-rrk0d8VmoD .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rrk0d8VmoD .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-rrk0d8VmoD .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
 }
 .cid-rrk0d8VmoD .collapsed button.navbar-toggler {
   display: block;
