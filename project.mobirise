@@ -31,6 +31,8 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/5a2bb403cdae78.1749064815128135718425-128x170.png",
+    "noImageResize": "",
     "uniqCompNum": 2,
     "versionPublish": "4.10.3"
   },
